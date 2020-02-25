@@ -1,0 +1,431 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: easygettext\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../components/layout/AppFooter.vue:31
+msgid "@ All rights reserved ©"
+msgstr ""
+
+#: ../views/Program.vue:61
+msgid "*Темы не ограничиваются перечисленным выше списком."
+msgstr ""
+
+#: ../views/Home.vue:87
+msgid "01 декабря 2019г."
+msgstr ""
+
+#: ../views/Home.vue:73
+msgid "01 ноября 2019г."
+msgstr ""
+
+#: ../views/Home.vue:157
+msgid "09-11 сентября 2020г."
+msgstr ""
+
+#: ../views/Home.vue:115
+msgid "15 апреля 2020г."
+msgstr ""
+
+#: ../views/Home.vue:129
+msgid "15 мая 2020г."
+msgstr ""
+
+#: ../views/Home.vue:101
+msgid "15 февраля 2020г."
+msgstr ""
+
+#: ../views/Home.vue:143
+msgid "20 июня 2020г."
+msgstr ""
+
+#: ../components/layout/AppFooter.vue:34
+msgid "2012 - 2018 ФГБОУ ВО «МГТУ «СТАНКИН»"
+msgstr ""
+
+#: ../views/Participation.vue:59
+msgid "28400 руб."
+msgstr ""
+
+#: ../views/Participation.vue:67
+msgid "35500 руб."
+msgstr ""
+
+#: ../views/Home.vue:12
+msgid "9-11 сентября 2020 г."
+msgstr ""
+
+#: ../components/layout/AppFooter.vue:16
+msgid "9-11 сентября 2020 г. - МГТУ «СТАНКИН», Москва, Россия"
+msgstr ""
+
+#: ../views/Participation.vue:21
+msgid ""
+"Абстракт должен быть представлен до 01 ноября 2019 г. по\n"
+"            электронной почте:"
+msgstr ""
+
+#: ../views/Participation.vue:14
+msgid ""
+"Авторам предлагается представить расширенный абстракт объемом не\n"
+"            более 400 слов на английском языке. Рисунки не могут быть\n"
+"            прикреплены к абстракту."
+msgstr ""
+
+#: ../views/Contacts.vue:27
+msgid "Адрес проведения:"
+msgstr ""
+
+#: ../views/Participation.vue:51
+msgid "ВЗНОС"
+msgstr ""
+
+#: ../views/Participation.vue:39
+msgid ""
+"Все принятые доклады конференции будут опубликованы в изданиях,\n"
+"              индексируемых в базах Web of Science и Scopus."
+msgstr ""
+
+#: ../components/layout/AppFooter.vue:46 ../components/layout/AppHeader.vue:67
+msgid "Главная"
+msgstr ""
+
+#: ../views/Program.vue:87
+msgid ""
+"Директор Института станков и технологий Высшей технической\n"
+"                школы Цюриха проф. К.Вегенер"
+msgstr ""
+
+#: ../views/Home.vue:25
+msgid "До 30 июня 2020г. – скидка&nbsp;"
+msgstr ""
+
+#: ../views/Home.vue:38
+msgid "Информация о"
+msgstr ""
+
+#: ../views/Program.vue:72
+msgid "Ключевые"
+msgstr ""
+
+#: ../views/Program.vue:81
+msgid ""
+"Ключевыми спикерами конференции планируются Президент\n"
+"                Фраунгоферского общества (Германия) проф. Р.Нойгебауер"
+msgstr ""
+
+#: ../components/layout/AppFooter.vue:50 ../components/layout/AppHeader.vue:71
+#: ../views/Contacts.vue:4
+msgid "Контакты"
+msgstr ""
+
+#: ../views/Home.vue:41
+msgid "конференции"
+msgstr ""
+
+#: ../views/Program.vue:10
+msgid "Конференции"
+msgstr ""
+
+#: ../views/Home.vue:153
+msgid "Конференция"
+msgstr ""
+
+#: ../views/Place.vue:59
+msgid ""
+"Конференция будет проходить в Кампусе бизнес школы СКОЛКОВО,\n"
+"              одной из ведущих коммуникационных академических площадок "
+"России\n"
+"              и СНГ, основанной в 2006 году, с целью привлечения мирового\n"
+"              уровня профессоров и исследователей, развития российских\n"
+"              экспертов и генерации новых идей. Место, где создаются\n"
+"              актуальные знания и опыт для тех, кто делает ставку на Россию "
+"и\n"
+"              развивающиеся рынки."
+msgstr ""
+
+#: ../views/Home.vue:6
+msgid ""
+"Международная конференция «Передовые и конкурентные технологии\n"
+"          производства»"
+msgstr ""
+
+#: ../views/Organization.vue:32
+msgid "Международный совет конференции:"
+msgstr ""
+
+#: ../views/Place.vue:6
+msgid "Место"
+msgstr ""
+
+#: ../components/layout/AppFooter.vue:49 ../components/layout/AppHeader.vue:70
+msgid "Место проведения"
+msgstr ""
+
+#: ../views/Home.vue:15
+msgid ""
+"Московский Государственный Технологический Университет «СТАНКИН»,\n"
+"          Москва, Россия"
+msgstr ""
+
+#: ../views/Home.vue:125
+msgid "Окончательное уведомление"
+msgstr ""
+
+#: ../views/Home.vue:139
+msgid "Окончательный анонс программы"
+msgstr ""
+
+#: ../components/layout/AppFooter.vue:47 ../components/layout/AppHeader.vue:68
+msgid "Организация"
+msgstr ""
+
+#: ../views/Organization.vue:5
+msgid "ОРГАНИЗАЦИЯ"
+msgstr ""
+
+#: ../views/Home.vue:45
+msgid ""
+"Оргкомитет ACМТ 2020 приглашает Вас принять участие в Международной\n"
+"          конференции «Передовые и конкурентные технологии производства»,\n"
+"          которая пройдет в Москве, Россия. Конференция станет местом "
+"встречи\n"
+"          ученых и представителей промышленности, на котором они смогут\n"
+"          показать последние достижения в области технологии, инновации и\n"
+"          обсудить перспективы развития производственных технологий."
+msgstr ""
+
+#: ../views/Home.vue:97
+msgid "Подача статьи"
+msgstr ""
+
+#: ../views/Participation.vue:63
+msgid "Полная регистрация (после 30 июня 2020 г.) –"
+msgstr ""
+
+#: ../views/Participation.vue:32
+msgid "ПРАВИЛА"
+msgstr ""
+
+#: ../views/Home.vue:111
+msgid "Предварительное уведомление"
+msgstr ""
+
+#: ../views/Organization.vue:12
+msgid "Председатель конференции:"
+msgstr ""
+
+#: ../views/Participation.vue:7
+msgid "Принять"
+msgstr ""
+
+#: ../views/Place.vue:9
+msgid "Проведения"
+msgstr ""
+
+#: ../components/layout/AppFooter.vue:48 ../components/layout/AppHeader.vue:69
+msgid "Программа"
+msgstr ""
+
+#: ../views/Organization.vue:23
+msgid ""
+"Проф. Андрей Кутин, МГУТ «СТАНКИН», Россия Проф. Конрад\n"
+"                Вегенер, ETH Zurich, Швейцария"
+msgstr ""
+
+#: ../views/Organization.vue:15
+msgid "Проф. Елена Катаева"
+msgstr ""
+
+#: ../views/Participation.vue:35
+msgid "ПУБЛИКАЦИЙ"
+msgstr ""
+
+#: ../views/Participation.vue:48
+msgid "РЕГИСТРАЦИОННЫЙ"
+msgstr ""
+
+#: ../views/Home.vue:22
+msgid "Регистрационный взнос:"
+msgstr ""
+
+#: ../views/Participation.vue:55
+msgid "Регистрация (ранняя) (срок оплаты до 30 июня 2020 г.) –"
+msgstr ""
+
+#: ../views/Program.vue:93
+msgid ""
+"Ректор Санкт-Петербургского политехнического университета\n"
+"                Петра Великого академик РАН Рудской А.И."
+msgstr ""
+
+#: ../views/Contacts.vue:33
+msgid ""
+"Россия, 143025, Московская область, Одинцовский район, дер.\n"
+"          Сколково, ул. Новая, д.100"
+msgstr ""
+
+#: ../views/Program.vue:99
+msgid ""
+"Руководители ведущих российских корпораций и предприятий\n"
+"                (Роскосмос, Газпром, КАМАЗ)."
+msgstr ""
+
+#: ../views/Contacts.vue:8
+msgid "Секретариат конференции:"
+msgstr ""
+
+#: ../views/Place.vue:55
+msgid "СКОЛКОВО"
+msgstr ""
+
+#: ../views/Organization.vue:20
+msgid "Сопредседатели конференции:"
+msgstr ""
+
+#: ../views/Program.vue:75
+msgid "Спикеры"
+msgstr ""
+
+#: ../views/Home.vue:69
+msgid "Срок подачи аннотации"
+msgstr ""
+
+#: ../views/Home.vue:59
+msgid "СРОКИ ПРОВЕДЕНИЯ"
+msgstr ""
+
+#: ../views/Place.vue:15
+msgid ""
+"Столица России с населением в около 13 миллионов человек и\n"
+"              является знаковым, всемирно известным городом с почти\n"
+"              1000-летней историей. Москва, известная своими архитектурными\n"
+"              чудесами, в том числе Кремлевским комплексом, Красной площадью "
+"и\n"
+"              собором Василия Блаженного, имеет огромный образовательный,\n"
+"              культурный и промышленный центр. Москва является крупнейшим\n"
+"              научным центром России и входит в двадцатку крупнейших "
+"городов\n"
+"              мира. Штаб-квартира Российской академии наук находится в "
+"Москве,\n"
+"              а также другие научно-исследовательские и прикладные научные\n"
+"              учреждения. В 1930 году Московский Государственный\n"
+"              Станкостроительный Институт был основан как школа для "
+"инженеров\n"
+"              в области станкостроения и технологии производства. В 1992 "
+"году\n"
+"              он стал Московским Государственным Технологическим "
+"Университетом\n"
+"              «СТАНКИН». За свою историю МГУТ «СТАНКИН» выпустил многих\n"
+"              известных ученых и инженеров. На сегодняшний день около 5 000\n"
+"              студентов обучаются в 4 институтах. Это Институт "
+"машиностроения\n"
+"              и инжиниринга, Институт информационных систем и технологий,\n"
+"              Институт автоматизации и робототехники, Институт экономики и\n"
+"              технологического менеджмента."
+msgstr ""
+
+#: ../views/Contacts.vue:14
+msgid "Телефон:"
+msgstr ""
+
+#: ../views/Program.vue:7
+msgid "Темы*"
+msgstr ""
+
+#: ../views/Home.vue:83
+msgid "Уведомление о принятии"
+msgstr ""
+
+#: ../components/layout/AppHeader.vue:22 ../components/layout/AppHeader.vue:38
+#: ../views/Participation.vue:10
+msgid "Участие"
+msgstr ""
+
+#: ../views/Program.vue:16
+msgid "Additive and hybrid technologies"
+msgstr ""
+
+#: ../views/Program.vue:42
+msgid "CAD/CAM/CAE - systems"
+msgstr ""
+
+#: ../views/Program.vue:54
+msgid "Cyber-physical production systems"
+msgstr ""
+
+#: ../views/Program.vue:22
+msgid ""
+"Digital Twins of Machine Tools, Processes and Manufacturing\n"
+"                Systems"
+msgstr ""
+
+#: ../views/Contacts.vue:21
+msgid "E-mail:"
+msgstr ""
+
+#: ../views/Program.vue:19
+msgid "High-Performance and Hard Machining"
+msgstr ""
+
+#: ../views/Program.vue:51
+msgid "High-Precision Measurement"
+msgstr ""
+
+#: ../views/Program.vue:39
+msgid "Multiphysics and Multiscale Modelling"
+msgstr ""
+
+#: ../views/Program.vue:34
+msgid "Non-Conventional Processes (Laser, EDM, ECM)"
+msgstr ""
+
+#: ../views/Program.vue:48
+msgid "Optimisation of Machining"
+msgstr ""
+
+#: ../views/Program.vue:28
+msgid ""
+"Precision, Ultra-Precision and Micro-Machining\n"
+"                Processes"
+msgstr ""
+
+#: ../views/Organization.vue:35
+msgid ""
+"Prof. M. Bambach (Germany), Prof. F. Bleicher (Austria), Prof.\n"
+"              A. Borovkov (Russia), Prof. Christian Brecher (Germany), "
+"Prof.\n"
+"              E. Budak (Turkey), Prof. G. Byrne (Ireland), Prof. P.Dasic\n"
+"              (Serbia), Prof. K. Droeder (Germany), Prof.W-G. Drossel\n"
+"              (Germany), Prof. Ekorkmaz (Canada), Prof. K.Jemielniak "
+"(Poland),\n"
+"              Prof. F.Grechnikov (Russia), Prof. F.Haas (Austria), Prof.\n"
+"              B.Karpuschewski (Germany), Prof. B.Katalinic (Austria), Dr.\n"
+"              M.Klyuev (Russia), Dr.J. Koriath (Germany), Prof. P. Krajnik\n"
+"              (Sweden), Prof. L. Kroll (Germany), Prof. B. Lauwers "
+"(Belgium),\n"
+"              Prof. G.Martinov (Bulgaria/Russia), Prof. A. Matsubara "
+"(Japan),\n"
+"              Prof. S. Melkote (USA), Prof. M.Monno (Italy), Prof.\n"
+"              R.Neugebauer (Germany), Prof. J. Rech (France), Prof. M."
+"Schenk\n"
+"              (Germany), Prof. R. Schröter (Brasil), Prof. I.Smurov\n"
+"              (Russia/France), Prof. R.Teti (Italy), Prof. A. Vasiliev\n"
+"              (Russia), Prof. T.Zaborowski (Poland)"
+msgstr ""
+
+#: ../views/Program.vue:45
+msgid "Sensors and robotics"
+msgstr ""
+
+#: ../views/Program.vue:57
+msgid "Vision of the new manufacturing"
+msgstr ""

@@ -1,0 +1,61 @@
+h2 {
+    text-align: left;
+    font: 600 59px/52px "Gotham Pro";
+    letter-spacing: 0;
+    text-transform: uppercase;
+
+    .red-text {
+        text-align: left;
+        font: 200 39px/52px "Gotham Pro";
+        letter-spacing: 0;
+        color: #9C1022;
+        text-transform: uppercase;
+    }
+
+    @media (max-width:600px) {
+        font: 600 39px/32px "Gotham Pro";
+
+        .red-text {
+            font: 200 29px/32px "Gotham Pro";
+        }
+    }
+
+}
+
+h3 {
+    text-align: left;
+    font: 600 48px/42px "Gotham Pro";
+    letter-spacing: 0;
+    text-transform: uppercase;
+
+    .red-text {
+        text-align: left;
+        font: 200 32px/42px "Gotham Pro";
+        letter-spacing: 0;
+        color: #9C1022;
+        text-transform: uppercase;
+    }
+
+    .light-text {
+        font: 200 32px/42px "Gotham Pro";
+    }
+
+    @media (max-width:600px) {
+        font: 600 30px/30px "Gotham Pro";
+
+        .red-text {
+            font: 200 30px/30px "Gotham Pro";
+        }
+
+        .light-text {
+            font: 200 30px/30px "Gotham Pro";
+        }
+    }
+
+}
+
+h5 {
+    font: 600 16px/22px "Gotham Pro";
+    letter-spacing: 0;
+    margin: 0;
+}

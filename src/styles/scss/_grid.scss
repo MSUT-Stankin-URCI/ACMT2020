@@ -1,0 +1,54 @@
+.col-3 {
+    width: 100% / 12 * 3;
+    box-sizing: border-box;
+}
+
+.col-4 {
+    width: 100% / 12 * 4;
+    box-sizing: border-box;
+
+}
+
+.col-5 {
+    width: 100% / 12 * 5;
+    box-sizing: border-box;
+
+}
+
+.col-6 {
+    width: 50%;
+    box-sizing: border-box;
+
+}
+
+.col-7 {
+    width: 100% / 12 * 7;
+    box-sizing: border-box;
+
+}
+
+.col-8 {
+    width: 100% / 12 * 8;
+    box-sizing: border-box;
+
+}
+
+.col-9 {
+    width: 100% / 12 * 9;
+    box-sizing: border-box;
+
+}
+
+.col-10 {
+    width: 100% / 12 * 10;
+    box-sizing: border-box;
+
+}
+
+
+.col-sm-12 {
+    @media (max-width:1024px) {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
