@@ -57,6 +57,7 @@
 </template>
 
 <script>
+/* eslint-disable */
 import Gallery from "@/components/gallery/Gallery";
 export default {
   name: "organization",

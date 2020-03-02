@@ -4,6 +4,7 @@
       <h2 style="margin:50px auto">
         <translate>Контакты</translate>
       </h2>
+
       <div style="margin-bottom: 36px">
         <h5 style="margin-bottom: 15px">
           <translate>Секретариат конференции:</translate>
@@ -12,7 +13,7 @@
           <i>
             <img src="@/assets/images/icons/call.svg" alt />
           </i>
-          <translate>Телефон (Елена): </translate>
+          <translate>Телефон</translate>: 
           <a href="tel:+74999729567">+7 (499) 972-95-67</a>
         </div>
         <div class="text">
@@ -23,6 +24,27 @@
           <a href="mailTo:acmt2020@stankin.ru">acmt2020@stankin.ru</a>
         </div>
       </div>
+      
+      <div style="margin-bottom: 36px">
+        <h5 style="margin-bottom: 15px">
+          <translate>Визовая поддержка:</translate>
+        </h5>
+        <div class="text">
+          <i>
+            <img src="@/assets/images/icons/call.svg" alt />
+          </i>
+          <translate>Телефон</translate>: 
+          <a href="tel:+74999729411">+7 (499) 972-94-11</a>
+        </div>
+        <div class="text">
+          <i>
+            <img src="@/assets/images/icons/email.svg" alt />
+          </i>
+          <translate>E-mail:</translate>&nbsp;
+          <a href="mailto:n.popova@stankin.ru">n.popova@stankin.ru</a>
+        </div>
+      </div>
+
       <div>
         <h5 style="margin-bottom: 15px">
           <translate>Адрес проведения:</translate>
@@ -42,6 +64,7 @@
 </template>
 
 <script>
+/* eslint-disable */
 export default {
   name: "place",
   data() {
