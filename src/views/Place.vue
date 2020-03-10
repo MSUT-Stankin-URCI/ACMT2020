@@ -60,6 +60,7 @@
 
 <script>
 export default {
+  /* eslint-disable */
   name: "place",
   data() {
     return {
