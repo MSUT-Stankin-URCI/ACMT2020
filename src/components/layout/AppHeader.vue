@@ -4,7 +4,7 @@
       <change-language-btn class="change-lang"></change-language-btn>
     </div>
     <div class="flex flex-between vertical-center">
-      <div class="logo">АСМТ2020</div>
+      <router-link to="/" class="logo"></router-link>
       <div class="menu only-screen">
         <div ref="underscore" class="underscore"></div>
         <ul ref="menu" class="flex flex-between" @click="update_underscore">
@@ -68,6 +68,7 @@ export default {
       { title: this.$gettext("Организация"), link: "organization" },
       { title: this.$gettext("Программа"), link: "program" },
       { title: this.$gettext("Место проведения"), link: "place" },
+      { title: this.$gettext("Проживание"), link: "acсommodation" },
       { title: this.$gettext("Контакты"), link: "contacts" }
     ];
     return {
@@ -117,7 +118,7 @@ export default {
 }
 
 .menu {
-  width: 796px;
+  width: 820px;
   position: relative;
 }
 
@@ -149,8 +150,15 @@ export default {
   letter-spacing: 0;
   opacity: 1;
   flex-grow: 0;
-  cursor: default;
   user-select: none;
+  
+  background-image: url('../../assets/images/logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 213px;
+  height: 70px;
+  margin-top: -30px;
 }
 
 .change-lang {

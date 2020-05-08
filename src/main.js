@@ -12,7 +12,7 @@ Vue.use(GetTextPlugin, {
     en_GB: "English",
     ru_RU: "Русский"
   },
-  defaultLanguage: "ru_RU",
+  defaultLanguage: "en_GB",
   silent: true,
   translations: translations
 });

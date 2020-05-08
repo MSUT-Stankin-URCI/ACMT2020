@@ -6,6 +6,7 @@ import Home from "./views/Home.vue";
 import Organization from "./views/Organization.vue";
 import Program from "./views/Program.vue";
 import Place from "./views/Place.vue";
+import Acсommodation from './views/Acсommodation.vue';
 import Contacts from "./views/Contacts.vue";
 import Participation from "./views/Participation.vue";
 
@@ -39,6 +40,11 @@ export default new Router({
       path: "/place",
       name: "place",
       component: Place
+    },
+    {
+      path: '/acсommodation',
+      name: 'acсommodation',
+      component: Acсommodation
     },
     {
       path: "/contacts",

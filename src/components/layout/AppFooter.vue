@@ -1,7 +1,7 @@
 <template>
   <footer class="footer">
     <div class="flex flex-between vertical-center" style="margin-bottom: 37px">
-      <div class="logo">АСМТ2020</div>
+      <div class="logo"></div>
       <div class="menu only-screen">
         <ul class="flex flex-between">
           <li v-for="(menu_item, id) in menu_items" :key="id" class="menu-link">
@@ -15,7 +15,7 @@
     <div class="flex flex-between vertical-center">
       <p class="dates">
         <translate
-          >9-11 сентября 2020 г. - МГТУ «СТАНКИН», Москва, Россия</translate
+          >31 мая - 2 июня 2021 г. - МГТУ «СТАНКИН», Москва, Россия</translate
         >
       </p>
       <div class="contacts">
@@ -32,7 +32,7 @@
         <translate>@ All rights reserved ©</translate>
       </div>
       <div>
-        <translate>2012 - 2020 ФГБОУ ВО «МГТУ «СТАНКИН»</translate>
+        2012 - {{(new Date()).getFullYear()}} ФГБОУ ВО «МГТУ «СТАНКИН»
       </div>
     </div>
   </footer>
@@ -94,6 +94,10 @@ export default {
   opacity: 1;
   flex-grow: 0;
   margin-right: 10px;
+
+  width: 213px;
+  height: 27px;
+  background-image: url('../../assets/images/logo-white.png');
 }
 
 .change-lang {
