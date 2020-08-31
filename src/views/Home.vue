@@ -3,8 +3,14 @@
     <div style="margin-bottom:70px">
       <section class="relative gray-bg container">
         <div class="home-page-banner">
-          <img v-if="this.$parent.$language.current == 'ru_RU'" src="../assets/images/home_logo/ru.jpg" />
-          <img v-if="this.$parent.$language.current == 'en_GB'" src="../assets/images/home_logo/en.jpg" />
+          <img
+            v-if="this.$parent.$language.current == 'ru_RU'"
+            src="../assets/images/home_logo/ru.jpg"
+          >
+          <img
+            v-if="this.$parent.$language.current == 'en_GB'"
+            src="../assets/images/home_logo/en.jpg"
+          >
         </div>
         <!--<h1 class="jumble">АСМТ 2020</h1>
         <p class="title">
@@ -15,7 +21,7 @@
           </translate>
         </p>-->
         <p class="date">
-          <translate>9-11 сентября 2020 г.</translate>
+          <translate>31 мая - 2 июня 2021 г.</translate>
         </p>
         <p class="corp">
           <translate>
@@ -32,12 +38,18 @@
           </p>
         </div>-->
         <div class="mouse-scroll only-screen">
-          <img src="@/assets/images/mouse_scroll.svg" alt />
+          <img
+            src="@/assets/images/mouse_scroll.svg"
+            alt
+          >
         </div>
       </section>
     </div>
     <div class="section-white">
-      <section class="container" style="padding-top:85px">
+      <section
+        class="container"
+        style="padding-top:85px"
+      >
         <h2>
           <div class="red-text">
             <translate>Информация о</translate>
@@ -54,7 +66,11 @@
         <div>
           <h4 style="margin-bottom: 12px">
             <i>
-              <img class="calendar" src="@/assets/images/calendar.svg" alt />
+              <img
+                class="calendar"
+                src="@/assets/images/calendar.svg"
+                alt
+              >
             </i>
             <translate>СРОКИ ПРОВЕДЕНИЯ</translate>
           </h4>
@@ -65,7 +81,7 @@
                   <div
                     class="circle"
                     :class="{ circle_filled: period === 1 }"
-                  ></div>
+                  />
                   <translate>Срок подачи аннотации</translate>
                 </div>
               </div>
@@ -80,7 +96,7 @@
                   <div
                     class="circle"
                     :class="{ circle_filled: period === 2 }"
-                  ></div>
+                  />
                   <translate>Уведомление о принятии</translate>
                 </div>
               </div>
@@ -95,7 +111,7 @@
                   <div
                     class="circle"
                     :class="{ circle_filled: period === 3 }"
-                  ></div>
+                  />
                   <translate>Подача статьи</translate>
                 </div>
               </div>
@@ -110,7 +126,7 @@
                   <div
                     class="circle"
                     :class="{ circle_filled: period === 4 }"
-                  ></div>
+                  />
                   <translate>Утверждение программы</translate>
                 </div>
               </div>
@@ -125,7 +141,7 @@
                   <div
                     class="circle"
                     :class="{ circle_filled: period === 5 }"
-                  ></div>
+                  />
                   <translate>Предварительное уведомление</translate>
                 </div>
               </div>
@@ -141,7 +157,7 @@
                   <div
                     class="circle"
                     :class="{ circle_filled: period === 7 }"
-                  ></div>
+                  />
                   <translate>Окончательное уведомление</translate>
                 </div>
               </div>
@@ -157,7 +173,7 @@
                   <div
                     class="circle"
                     :class="{ circle_filled: period === 7 }"
-                  ></div>
+                  />
                   <translate>Окончательный анонс программы</translate>
                 </div>
               </div>
@@ -172,7 +188,7 @@
                   <div
                     class="circle"
                     :class="{ circle_filled: period === 8 }"
-                  ></div>
+                  />
                   <translate>Конференция</translate>
                 </div>
               </div>
