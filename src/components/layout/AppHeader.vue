@@ -1,19 +1,34 @@
 <template>
   <header class="header">
     <div class="pull-right">
-      <change-language-btn class="change-lang"></change-language-btn>
+      <change-language-btn class="change-lang" />
     </div>
     <div class="flex flex-between vertical-center">
-      <router-link to="/" class="logo"></router-link>
+      <router-link
+        to="/"
+        class="logo"
+      />
       <div class="menu only-screen">
-        <div ref="underscore" class="underscore"></div>
-        <ul ref="menu" class="flex flex-between" @click="update_underscore">
-          <li v-for="(menu_item, id) in menu_items" :key="id" class="menu-link">
+        <div
+          ref="underscore"
+          class="underscore"
+        />
+        <ul
+          ref="menu"
+          class="flex flex-between"
+          @click="update_underscore"
+        >
+          <li
+            v-for="(menu_item, id) in menu_items"
+            :key="id"
+            class="menu-link"
+          >
             <router-link
               :to="{ name: menu_item.link }"
               :class="{ 'item-active': menu_item.link === $route.name }"
-              >{{ menu_item.title }}</router-link
             >
+              {{ menu_item.title }}
+            </router-link>
           </li>
           <li class="menu-link participation">
             <router-link
@@ -26,8 +41,16 @@
         </ul>
       </div>
       <div class="only-mobile">
-        <div ref="mobile_menu" class="mobile-menu mobile-menu_hidden">
-          <div class="menu-btn" @click.stop.prevent="open_menu">&#9776;</div>
+        <div
+          ref="mobile_menu"
+          class="mobile-menu mobile-menu_hidden"
+        >
+          <div
+            class="menu-btn"
+            @click.stop.prevent="open_menu"
+          >
+            &#9776;
+          </div>
           <ul>
             <li class="menu-mobile-link participation">
               <router-link
@@ -47,8 +70,9 @@
               <router-link
                 :to="{ name: menu_item.link }"
                 :class="{ 'item-active': menu_item.link === $route.name }"
-                >{{ menu_item.title }}</router-link
               >
+                {{ menu_item.title }}
+              </router-link>
             </li>
           </ul>
         </div>
@@ -79,7 +103,7 @@ export default {
     this.update_underscore();
     document.addEventListener("click", this.close_menu);
   },
-  beforeDestroy() {
+  beforeUnmount() {
     document.removeEventListener("click", this.close_menu);
   },
   methods: {
