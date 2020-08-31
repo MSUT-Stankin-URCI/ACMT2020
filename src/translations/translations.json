@@ -75,7 +75,31 @@
         "Участие": "Participation",
         "Ранняя регистрация": "Early bird registration",
         "Выставка \"Металлообработка\"": "Metallworking exhibition",
-        "Программа наведения мостов": "Bridging program"
+        "Программа наведения мостов": "Bridging program",
+
+        "МЕТАЛЛООБРАБОТКА": "METALLWORKING",
+        "Пятница": "Friday",
+        "Суббота": "Saturday",
+        "Воскресенье": "Sunday",
+        "Понедельник": "Monday",
+        "Вторник": "Tuesday",
+        "Среда": "Wednesday",
+        "Утро":"Morning",
+        "После полудня":"Afternoon",
+        "Вечер":"Evening",
+
+        "Посещение компании":"Company visit",
+        "Экскурсия в компанию":"Company visit",
+        "Свободное время":"Free time",
+        "Бизнес завтрак":"Business breakfast",
+        "Посещение лабораторий Станкина":"Lab tour Stankin",
+        "Культурная программа":"Cultural program",
+        "Торжественный прием":"Welcome reception",
+        "Конференция":"Conference",
+        "Официальный ужин":"Conference dinner",
+        "Вечер налаживания деловых контактов":"Networking event",
+        "Индивидуальный выезд":"Individual departure",
+        "":""
     },
     "ru_RU": {}
 }

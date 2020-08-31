@@ -14,54 +14,180 @@
           <div class="themes">
             <ul style="margin-bottom: 25px">
               <li>
-                <translate>Additive and hybrid technologies</translate>
+                <translate>Additive and Hybrid Technologies</translate>
               </li>
               <li>
                 <translate>High-Performance and Hard Machining</translate>
               </li>
               <li>
-                <translate>
-                  Digital Twins of Machine Tools, Processes and Manufacturing
-                  Systems
-                </translate>
+                <translate>Digital Twins of Machine Tools, Processes and Manufacturing Systems</translate>
               </li>
               <li>
-                <translate>
-                  Precision, Ultra-Precision and Micro-Machining Processes
-                </translate>
+                <translate>Precision, Ultra-Precision and Micro-Machining</translate>
               </li>
               <li>
-                <translate
-                  >Non-Conventional Processes (Laser, EDM, ECM)</translate
-                >
+                <translate>Non-Conventional Processes (Laser, EDM, ECM)</translate>
               </li>
               <li>
                 <translate>Multiphysics and Multiscale Modelling</translate>
               </li>
               <li>
-                <translate>CAD/CAM/CAE - systems</translate>
+                <translate>CAD/CAM/CAE - Systems Monitoring and Diagnostics</translate>
               </li>
               <li>
-                <translate>Sensors and robotics</translate>
+                <translate>Sensors and Robotics</translate>
               </li>
               <li>
-                <translate>Optimisation of Machining</translate>
+                <translate>Optimization of Machining Process</translate>
               </li>
               <li>
                 <translate>High-Precision Measurement</translate>
               </li>
               <li>
-                <translate>Cyber-physical production systems</translate>
+                <translate>Cyber-Physical Production Systems</translate>
               </li>
               <li>
-                <translate>Vision of the new manufacturing</translate>
+                <translate>The Vision of the New Manufacturing</translate>
               </li>
             </ul>
             <div class="hint">
-              <translate
-                >*Темы не ограничиваются перечисленным выше списком.</translate
-              >
+              <translate>
+                *Темы не ограничиваются перечисленным выше списком.
+              </translate>
             </div>
+          </div>
+
+          <h3 style="margin-top:40px">
+            <div
+              class="red-text"
+              style="font-size: 18px; margin-bottom: -10px;"
+            >
+              <translate>24.-28.05.2021</translate>
+            </div>
+            <div style="font-size: 26px;">
+              <translate>МЕТАЛЛООБРАБОТКА</translate>
+            </div>
+          </h3>
+
+          <div class="table_wrapper">
+            <table class="table">
+              <thead>
+                <tr>
+                  <td>
+                    <b>28.05.2021</b>
+                    <br>
+                    <translate>Пятница</translate>
+                  </td>
+                  <td>
+                    <b>29.05.2021</b>
+                    <br>
+                    <translate>Суббота</translate>
+                  </td>
+                  <td>
+                    <b>30.05.2021</b>
+                    <br>
+                    <translate>Воскресенье</translate>
+                  </td>
+                  <td>
+                    <b>31.05.2021</b>
+                    <br>
+                    <translate>Понедельник</translate>
+                  </td>
+                  <td>
+                    <b>01.06.2021</b>
+                    <br>
+                    <translate>Вторник</translate>
+                  </td>
+                  <td>
+                    <b>02.06.2021</b>
+                    <br>
+                    <translate>Среда</translate>
+                  </td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <b><translate>Утро</translate></b><br>
+                    <translate>Посещение компании</translate>
+                  </td>
+                  <td>
+                    <b><translate>Утро</translate></b><br>
+                    <translate>Бизнес завтрак</translate>
+                  </td>
+                  <td>
+                    <b><translate>Утро</translate></b><br>
+                    <translate>Культурная программа</translate>
+                  </td>
+                  <td>
+                    <b><translate>Утро</translate></b><br>
+                    <translate>Конференция</translate>
+                  </td>
+                  <td>
+                    <b><translate>Утро</translate></b><br>
+                    <translate>Конференция</translate>
+                  </td>
+                  <td>
+                    <b><translate>Утро</translate></b><br>
+                    <translate>Конференция</translate>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <b><translate>После полудня</translate></b><br>
+                    <translate>Экскурсия в компанию</translate>
+                  </td>
+                  <td>
+                    <b><translate>После полудня</translate></b><br>
+                    <translate>Посещение лабораторий Станкина</translate>
+                  </td>
+                  <td>
+                    <b><translate>После полудня</translate></b><br>
+                    <translate>Свободное время</translate>
+                  </td>
+                  <td>
+                    <b><translate>После полудня</translate></b><br>
+                    <translate>Конференция</translate>
+                  </td>
+                  <td>
+                    <b><translate>После полудня</translate></b><br>
+                    <translate>Конференция</translate>
+                  </td>
+                  <td>
+                    <b><translate>После полудня</translate></b><br>
+                    <translate>Конференция</translate>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <b><translate>Вечер</translate></b><br>
+                    <translate>Свободное время</translate>
+                  </td>
+                  <td>
+                    <b><translate>Вечер</translate></b><br>
+                    <translate>Свободное время</translate>
+                  </td>
+                  <td>
+                    <b><translate>Вечер</translate></b><br>
+                    <translate>Торжественный прием</translate>
+                  </td>
+                  <td>
+                    <b><translate>Вечер</translate></b><br>
+                    <translate>Официальный ужин</translate>
+                  </td>
+                  <td>
+                    <b><translate>Вечер</translate></b><br>
+                    <translate>Вечер налаживания деловых контактов</translate>
+                  </td>
+                  <td>
+                    <b><translate>Вечер</translate></b><br>
+                    <translate>Индивидуальный выезд</translate>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </section>
@@ -81,7 +207,7 @@
                 class="face"
                 src="../assets/images/program/neugebauer.jpg"
                 alt="neugebauer"
-              />
+              >
               <div>R. Neugebauer</div>
             </div>
             
@@ -90,7 +216,7 @@
                 class="face"
                 src="../assets/images/program/rudskoy.jpg"
                 alt="rudskoy"
-              />
+              >
               <div>A. Rudskoy</div>
             </div>
 
@@ -99,7 +225,7 @@
                 class="face"
                 src="../assets/images/program/wegеner.jpg"
                 alt="wegеner"
-              />
+              >
               <div>K. Wegener</div>
             </div>
           </div>
