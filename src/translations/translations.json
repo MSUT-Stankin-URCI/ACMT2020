@@ -100,6 +100,15 @@
         "Официальный ужин":"Conference dinner",
         "Вечер налаживания деловых контактов":"Networking event",
         "Индивидуальный выезд":"Individual departure",
+        "Проживание":"Accommodation",
+        "Уважаемые гости!":"Dear guests!",
+        "Для участников конференции предусмотрен спецтариф при размещении на территории Кампуса бизнес-школы СКОЛКОВО.":"Special price is provided for participants of the conference if they are located on the Campus of SKOLKOVO Business School.",
+        "Размещение в гостиничных одноместных номерах отелей 4* «Тянь-Шань», «Памир» - 7500 руб. (вместо 9800 руб.) вкл. НДС, фитнесс клуб с бассейном.":"Accommodation is in hotel single rooms of «Tien-Shan» and «Pamir» hotels 4* - 7500 rub. (instead of 9800 rub.) incl. VAT, fitness club with a swimming pool.",
+        "Завтрак: 990 руб. по желанию.":"Breakfast: 990 rub. upon request.",
+        "Данная цена предоставляется по промокоду \"STANKIN\", количество номеров ограничено.":"The price is provided with promo code «STANKIN», the number of rooms is limited.",
+        "За более подробной информацией и заявкой на размещение необходимо обращаться в службу бронирования гостиниц:":"The request for accommodation and additional information should be sent to the hotels' booking service:",
+        "Гостиница \"Тянь-Шань\"":"Hotel \"Tyan-Shan\"",
+        "Гостиница \"Памир\"":"Hotel \"Pamir\"",
         "":""
     },
     "ru_RU": {}
