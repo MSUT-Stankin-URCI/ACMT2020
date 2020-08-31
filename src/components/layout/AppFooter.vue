@@ -1,10 +1,17 @@
 <template>
   <footer class="footer">
-    <div class="flex flex-between vertical-center" style="margin-bottom: 37px">
-      <div class="logo"></div>
+    <div
+      class="flex flex-between vertical-center"
+      style="margin-bottom: 37px"
+    >
+      <div class="logo" />
       <div class="menu only-screen">
         <ul class="flex flex-between">
-          <li v-for="(menu_item, id) in menu_items" :key="id" class="menu-link">
+          <li
+            v-for="(menu_item, id) in menu_items"
+            :key="id"
+            class="menu-link"
+          >
             <router-link :to="{ name: menu_item.link }">
               {{ menu_item.title }}
             </router-link>
@@ -14,9 +21,9 @@
     </div>
     <div class="flex flex-between vertical-center">
       <p class="dates">
-        <translate
-          >31 мая - 2 июня 2021 г. - МГТУ «СТАНКИН», Москва, Россия</translate
-        >
+        <translate>
+          31 мая - 2 июня 2021 г. - МГТУ «СТАНКИН», Москва, Россия
+        </translate>
       </p>
       <div class="contacts">
         <div>
@@ -32,7 +39,7 @@
         <translate>@ All rights reserved ©</translate>
       </div>
       <div>
-        2012 - {{(new Date()).getFullYear()}} ФГБОУ ВО «МГТУ «СТАНКИН»
+        2012 - {{ (new Date()).getFullYear() }} ФГБОУ ВО «МГТУ «СТАНКИН»
       </div>
     </div>
   </footer>
@@ -47,6 +54,7 @@ export default {
       { title: this.$gettext("Организация"), link: "organization" },
       { title: this.$gettext("Программа"), link: "program" },
       { title: this.$gettext("Место проведения"), link: "place" },
+      { title: this.$gettext("Проживание"), link: "acсommodation" },
       { title: this.$gettext("Контакты"), link: "contacts" }
     ];
     return {

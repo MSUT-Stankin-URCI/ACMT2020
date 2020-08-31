@@ -270,9 +270,6 @@ export default {
       is_discount,
       period
     };
-  },
-  mounted(){
-    console.log(this);
   }
 };
 </script>

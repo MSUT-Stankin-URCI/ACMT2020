@@ -1,6 +1,9 @@
 <template>
   <div class="page">
-    <div class="container" style="margin-top: 50px; margin-bottom:100px">
+    <div
+      class="container"
+      style="margin-top: 50px; margin-bottom:100px"
+    >
       <div class="flex wrap flex-between">
         <div class="col-5 col-sm-12">
           <h2 style="margin-bottom:30px">
@@ -22,7 +25,26 @@
             </translate>&nbsp;
             <a href="mailTo:acmt2020@stankin.ru">acmt2020@stankin.ru</a>
           </p>
+
+          <div style="margin: 40px 0px;">
+            <h2>
+              <div class="red-text">
+                <span><translate>Аэропорты</translate></span>
+              </div>
+              <span><translate>Москвы</translate></span>
+            </h2>
+            <p>
+              <span><translate>Шереметьево (Москва)</translate></span> SVO/UUEE
+            </p>
+            <p>
+              <span><translate>Домодедово (Москва)</translate></span> DME/UUDD
+            </p>
+            <p>
+              <span><translate>Внуково (Москва)</translate></span> VKO/UUWW
+            </p>
+          </div>
         </div>
+
         <div class="col-6 col-sm-12">
           <div style="margin-bottom:50px">
             <h3 style="margin-bottom:15px">
@@ -37,8 +59,17 @@
               <translate>
                 Все принятые доклады конференции будут опубликованы в изданиях, индексируемых в базах Web of Science и Scopus.
               </translate>
+              <br>
+              <a
+                href="/docs/ACMT2020_Doc_Template.docm"
+                style="font-size: 12pt; font-weight: 500;"
+                download
+              >
+                <translate>Шаблон для статей</translate>
+              </a>
             </p>
           </div>
+
           <div>
             <h3 style="margin-bottom:15px">
               <div class="red-text">
@@ -49,20 +80,34 @@
               </div>
             </h3>
             <p>
-              <translate
-                >Регистрация (ранняя) (срок оплаты до 30 июня 2020 г.)
-                –</translate
-              >&nbsp;
+              <translate>
+                Регистрация (ранняя) (срок оплаты до 30 июня 2020 г.)
+                –
+              </translate>&nbsp;
               <strong>
                 <translate>28400 руб.</translate>
               </strong>
             </p>
             <p>
-              <translate>Полная регистрация (после 30 июня 2020 г.) –</translate
-              >&nbsp;
+              <translate>Полная регистрация (после 30 июня 2020 г.) –</translate>&nbsp;
               <strong>
                 <translate>35500 руб.</translate>
               </strong>
+            </p>
+          </div>
+
+          <div style="margin: 40px 0px;">
+            <h2>
+              <div class="red-text">
+                <span><translate>Рекомендуемые</translate></span>
+              </div>
+              <span><translate>отели</translate></span>
+            </h2>
+            <p>
+              <span><translate>Гостиница "Памир"</translate></span>
+            </p>
+            <p>
+              <span><translate>Гостиница "Тянь-Шань"</translate></span>
             </p>
           </div>
         </div>
@@ -73,6 +118,7 @@
 
 <script>
 /* eslint-disable */
+
 export default {
   name: "place",
   data() {

@@ -109,7 +109,14 @@
         "За более подробной информацией и заявкой на размещение необходимо обращаться в службу бронирования гостиниц:":"The request for accommodation and additional information should be sent to the hotels' booking service:",
         "Гостиница \"Тянь-Шань\"":"Hotel \"Tyan-Shan\"",
         "Гостиница \"Памир\"":"Hotel \"Pamir\"",
-        "":""
+        "Шаблон для статей": "Template for articles",
+        "Рекомендуемые":"RECOMMENDED",
+        "отели":"HOTELS",
+        "Аэропорты":"AIRPORTS",
+        "Москвы":"OF MOSCOW",
+        "Шереметьево (Москва)":"Sheremetyevo (Moscow)",
+        "Домодедово (Москва)":"Domodedovo (Moscow)",
+        "Внуково (Москва)":"Vnukovo (Moscow)"
     },
     "ru_RU": {}
 }
