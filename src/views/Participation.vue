@@ -65,7 +65,26 @@
                 style="font-size: 12pt; font-weight: 500;"
                 download
               >
-                <translate>Шаблон для статей</translate>
+                <translate>Шаблон для статей</translate> 1
+              </a><br>
+
+              
+              <!--Springer journals-->
+              <a
+                href="/docs/template_ACMT_word2.dotm"
+                style="font-size: 12pt; font-weight: 500;"
+                download
+              >
+                <translate>Шаблон для статей</translate> 2
+              </a><br>
+
+              
+              <a
+                href="/docs/Latex_Template.zip"
+                style="font-size: 12pt; font-weight: 500;"
+                download
+              >
+                <translate>Шаблон для статей</translate> 3 (LaTeX, zip)
               </a>
             </p>
           </div>

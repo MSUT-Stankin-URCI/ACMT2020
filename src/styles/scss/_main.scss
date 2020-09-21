@@ -78,3 +78,44 @@ h4 {
         padding: 10px;
     }
 }
+
+
+.hooper {
+    &-track {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        padding: 0px;
+    }
+
+    &-slide {
+        min-width: calc(100% / 3) !important;
+
+        @media (max-width: 1024px) {
+            min-width: calc(100% / 2) !important;
+        }
+
+        @media (max-width: 700px) {
+            min-width: 100% !important;
+        }
+        
+        img {
+            width: 100%;
+        }
+    }
+
+    img {
+        @media (min-width: 701px) {
+            filter: saturate(0);
+            transition: filter .3s ease-in-out;
+
+            &:hover {
+                filter: saturate(1);    
+            }
+        }
+    }
+
+    &-liveregion {
+        display: none;
+    }
+}

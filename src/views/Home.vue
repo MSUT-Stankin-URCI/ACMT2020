@@ -245,13 +245,70 @@
         </div>
       </section>
     </div>
+
+    
+    <div class="section-white">
+      <section
+        class="container"
+        style="padding-top:85px"
+      >
+        <h2>
+          <translate>Партнёры:</translate>
+        </h2>
+        
+        <Hooper
+          :key="slideToShow"
+          :items-to-show="slideToShow"
+          :infinite-scroll="true"
+          :center-mode="true"
+          :wheel-control="true"
+          class="partnerCarussel"
+        >
+          <Slide
+            v-for="(partner, i) in partners"
+            :key="i"
+            :index="i"
+          >
+            <a
+              :href="partner.link"
+              target="_blank"
+              rel="noopener"
+              :title="$parent.$language.current == 'ru_RU' ?
+                partner.name :
+                partner.engName"
+            >
+              <img
+                :src="$parent.$language.current == 'ru_RU' ?
+                  partner.img :
+                  partner.engImg"
+                :alt="$parent.$language.current == 'ru_RU' ?
+                  partner.name :
+                  partner.engName"
+              >
+            </a>
+          </Slide>
+        </Hooper>
+      </section>
+    </div>
   </div>
 </template>
 
 <script>
+import RussianEngineerUnionRuImg from '../assets/images/partners/engineering_union_rus.jpg'
+import RussianEngineerUnionEnImg from '../assets/images/partners/engineering_union_eng.jpg'
+
+import {
+  Hooper,
+  Slide
+} from 'hooper'
+
 /* eslint-disable */
 export default {
   name: "home",
+  components: {
+    Hooper,
+    Slide
+  },
   data() {
     let is_discount = new Date() < new Date("2020-06-30");
     let period = 1;
@@ -268,13 +325,49 @@ export default {
     if (current_date > new Date("2021-05-31")) period = 11;
     return {
       is_discount,
-      period
+      period,
+      slideToShow: 3,
+      partners: [
+        {
+          link: "https://soyuzmash.ru/",
+          name: "Союз машиностроителей России",
+          engName: "Russian Engineering Union",
+          img: RussianEngineerUnionRuImg,
+          engImg: RussianEngineerUnionEnImg
+        }
+      ]
     };
+  },
+
+  created () {
+    window.onresize = () => {
+      this.onWindowResize()
+    }
+    this.onWindowResize()
+  },
+  methods: {
+    onWindowResize () {
+      if(window.innerWidth < 1024) {
+        this.slideToShow = 2
+      }
+      else {
+        this.slideToShow = 3
+      }
+      if(window.innerWidth < 700) {
+        this.slideToShow = 1
+      }
+    }
   }
 };
 </script>
 
 <style lang="scss" scoped>
+
+.partnerCarussel {
+  outline: none;
+  overflow: hidden;
+  margin-bottom: 100px;
+}
 
 .home-page-banner{
   margin: 150px 0 18px 0;
