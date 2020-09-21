@@ -253,7 +253,7 @@
         style="padding-top:85px"
       >
         <h2>
-          <translate>Партнёры:</translate>
+          <translate>Партнёры</translate>
         </h2>
         
         <Hooper
