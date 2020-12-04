@@ -31,20 +31,30 @@
           <div class="col-3 col-sm-12">
             <div style="margin-bottom: 20px">
               <h5>
-                <translate>Исполнительный совет:</translate>
+                <translate>Исполнительный совет</translate>
               </h5>
               <ul>
-                <li>Chairwoman: Prof Kataeva</li>
-                <li>Co-chairman: Prof Kutin</li>
-                <li>Co-chairman: Prof Wegner</li>
+                <li class="text">
+                  Chairwoman: Prof Kataeva
+                </li>
+                <li class="text">
+                  Co-chairman: Prof Kutin
+                </li>
+                <li class="text">
+                  Co-chairman: Prof Wegener
+                </li>
               </ul>
             </div>
             <div>
-              <h5><translate>Генеральный секретариат:</translate></h5>
+              <h5><translate>Генеральный секретариат</translate></h5>
 
               <ul>
-                <li>Secretary General Scientific Coordination (SGS): Dr Kliuev</li>
-                <li>Secretary General Conference Organisation (SGO): Mr Kneubühler</li>
+                <li class="text">
+                  Secretary General Scientific Coordination (SGS): Dr Kliuev
+                </li>
+                <li class="text">
+                  Secretary General Conference Organisation (SGO): Mr Kneubühler
+                </li>
               </ul>
             </div>
           </div>
@@ -63,32 +73,32 @@
               <span style="margin-right: 5px"><translate>Prof. Christian Brecher (Germany), </translate></span>
               <span style="margin-right: 5px"><translate>Prof. E. Budak (Turkey), </translate></span>
               <span style="margin-right: 5px"><translate>Prof. G. Byrne (Ireland), </translate></span>
-              <span style="margin-right: 5px"><translate>Prof. P.Dasic (Serbia), </translate></span>
+              <span style="margin-right: 5px"><translate>Prof. P. Dasic (Serbia), </translate></span>
               <span style="margin-right: 5px"><translate>Prof. K. Droeder (Germany), </translate></span>
-              <span style="margin-right: 5px"><translate>Prof.W-G. Drossel (Germany), </translate></span>
+              <span style="margin-right: 5px"><translate>Prof. W-G. Drossel (Germany), </translate></span>
               <span style="margin-right: 5px"><translate>Prof. Ekorkmaz (Canada), </translate></span>
-              <span style="margin-right: 5px"><translate>Prof. K.Jemielniak (Poland),</translate></span>
-              <span style="margin-right: 5px"><translate>Prof. F.Grechnikov (Russia), </translate></span>
-              <span style="margin-right: 5px"><translate>Prof. F.Haas (Austria), </translate></span>
-              <span style="margin-right: 5px"><translate>Prof. B.Karpuschewski (Germany), </translate></span>
-              <span style="margin-right: 5px"><translate>Prof. B.Katalinic (Austria), </translate></span>
-              <span style="margin-right: 5px"><translate>Dr. M.Klyuev (Russia), </translate></span>
-              <span style="margin-right: 5px"><translate>Dr.J. Koriath (Germany), </translate></span>
+              <span style="margin-right: 5px"><translate>Prof. K. Jemielniak (Poland),</translate></span>
+              <span style="margin-right: 5px"><translate>Prof. F. Grechnikov (Russia), </translate></span>
+              <span style="margin-right: 5px"><translate>Prof. F. Haas (Austria), </translate></span>
+              <span style="margin-right: 5px"><translate>Prof. B. Karpuschewski (Germany), </translate></span>
+              <span style="margin-right: 5px"><translate>Prof. B. Katalinic (Austria), </translate></span>
+              <span style="margin-right: 5px"><translate>Dr. M. Kliuev (Russia), </translate></span>
+              <span style="margin-right: 5px"><translate>Dr. J. Koriath (Germany), </translate></span>
               <span style="margin-right: 5px"><translate>Prof. P. Krajnik (Sweden), </translate></span>
               <span style="margin-right: 5px"><translate>Prof. L. Kroll (Germany), </translate></span>
               <span style="margin-right: 5px"><translate>Prof. B. Lauwers (Belgium),</translate></span>
-              <span style="margin-right: 5px"><translate>Prof. G.Martinov (Bulgaria/Russia), </translate></span>
+              <span style="margin-right: 5px"><translate>Prof. G. Martinov (Bulgaria/Russia), </translate></span>
               <span style="margin-right: 5px"><translate>Prof. A. Matsubara (Japan),</translate></span>
               <span style="margin-right: 5px"><translate>Prof. S. Melkote (USA), </translate></span>
-              <span style="margin-right: 5px"><translate>Prof. M.Monno (Italy), </translate></span>
-              <span style="margin-right: 5px"><translate>Prof. R.Neugebauer (Germany), </translate></span>
+              <span style="margin-right: 5px"><translate>Prof. M. Monno (Italy), </translate></span>
+              <span style="margin-right: 5px"><translate>Prof. R. Neugebauer (Germany), </translate></span>
               <span style="margin-right: 5px"><translate>Prof. J. Rech (France), </translate></span>
-              <span style="margin-right: 5px"><translate>Prof. M.Schenk (Germany), </translate></span>
+              <span style="margin-right: 5px"><translate>Prof. M. Schenk (Germany), </translate></span>
               <span style="margin-right: 5px"><translate>Prof. R. Schröter (Brasil), </translate></span>
-              <span style="margin-right: 5px"><translate>Prof. I.Smurov (Russia/France), </translate></span>
-              <span style="margin-right: 5px"><translate>Prof. R.Teti (Italy), </translate></span>
+              <span style="margin-right: 5px"><translate>Prof. I. Smurov (Russia/France), </translate></span>
+              <span style="margin-right: 5px"><translate>Prof. R. Teti (Italy), </translate></span>
               <span style="margin-right: 5px"><translate>Prof. A. Vasiliev (Russia), </translate></span>
-              <span style="margin-right: 5px"><translate>Prof. T.Zaborowski (Poland)</translate></span>
+              <span style="margin-right: 5px"><translate>Prof. T. Zaborowski (Poland)</translate></span>
             </p>
           </div>
         </div>

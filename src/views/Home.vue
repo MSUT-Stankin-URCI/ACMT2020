@@ -75,7 +75,7 @@
             <translate>СРОКИ ПРОВЕДЕНИЯ</translate>
           </h4>
           <div class="table">
-            <div class="flex flex-between">
+            <!-- <div class="flex flex-between">
               <div class="title">
                 <div>
                   <div
@@ -118,20 +118,41 @@
               <div class="date">
                 <translate>7 ноября 2020г.</translate>
               </div>
-            </div>
+            </div> -->
 
             <div class="flex flex-between">
               <div class="title">
-                <div>
+                <div style="text-decoration: line-through;">
                   <div
                     class="circle"
-                    :class="{ circle_filled: period === 4 }"
+                    :class="{ circle_filled: period === 0 }"
                   />
                   <translate>Подача статьи</translate>
                 </div>
               </div>
-              <div class="date">
+              <div
+                class="date"
+                style="text-decoration: line-through;"
+              >
                 <translate>2 декабря 2020г.</translate>
+              </div>
+            </div>
+            
+            <div class="flex flex-between">
+              <div class="title">
+                <div style="color: #9C1022;">
+                  <div
+                    class="circle"
+                    :class="{ circle_filled: period === 1 }"
+                  />
+                  <translate>Подача статьи</translate>
+                </div>
+              </div>
+              <div
+                class="date"
+                style="color: #9C1022;"
+              >
+                <translate>2 января 2021г.</translate>
               </div>
             </div>
 
@@ -140,7 +161,7 @@
                 <div>
                   <div
                     class="circle"
-                    :class="{ circle_filled: period === 5 }"
+                    :class="{ circle_filled: period === 2 }"
                   />
                   <translate>Предварительное уведомление</translate>
                 </div>
@@ -156,7 +177,7 @@
                 <div>
                   <div
                     class="circle"
-                    :class="{ circle_filled: period === 7 }"
+                    :class="{ circle_filled: period === 3 }"
                   />
                   <translate>Окончательное уведомление</translate>
                 </div>
@@ -172,7 +193,7 @@
                 <div>
                   <div
                     class="circle"
-                    :class="{ circle_filled: period === 7 }"
+                    :class="{ circle_filled: period === 4 }"
                   />
                   <translate>Ранняя регистрация</translate>
                 </div>
@@ -187,7 +208,7 @@
                 <div>
                   <div
                     class="circle"
-                    :class="{ circle_filled: period === 8 }"
+                    :class="{ circle_filled: period === 5 }"
                   />
                   <translate>Окончательный анонс программы</translate>
                 </div>
@@ -202,7 +223,7 @@
                 <div>
                   <div
                     class="circle"
-                    :class="{ circle_filled: period === 9 }"
+                    :class="{ circle_filled: period === 6 }"
                   />
                   <translate>Выставка "Металлообработка"</translate>
                 </div>
@@ -217,7 +238,7 @@
                 <div>
                   <div
                     class="circle"
-                    :class="{ circle_filled: period === 10 }"
+                    :class="{ circle_filled: period === 7 }"
                   />
                   <translate>Программа наведения мостов</translate>
                 </div>
@@ -232,7 +253,7 @@
                 <div>
                   <div
                     class="circle"
-                    :class="{ circle_filled: period === 11 }"
+                    :class="{ circle_filled: period === 8 }"
                   />
                   <translate>Конференция ACMT</translate>
                 </div>
@@ -313,16 +334,16 @@ export default {
     let is_discount = new Date() < new Date("2020-06-30");
     let period = 1;
     let current_date = new Date();
-    if (current_date > new Date("2020-10-31")) period = 2;
-    if (current_date > new Date("2020-11-07")) period = 3;
-    if (current_date > new Date("2020-12-02")) period = 4;
-    if (current_date > new Date("2021-02-01")) period = 5;
-    if (current_date > new Date("2021-03-01")) period = 6;
-    if (current_date > new Date("2021-03-15")) period = 7;
-    if (current_date > new Date("2021-04-15")) period = 8;
-    if (current_date > new Date("2021-05-24")) period = 9;
-    if (current_date > new Date("2021-05-29")) period = 10;
-    if (current_date > new Date("2021-05-31")) period = 11;
+    // if (current_date > new Date("2020-10-31")) period = 2;
+    // if (current_date > new Date("2020-11-07")) period = 3;
+    // if (current_date > new Date("2020-12-02")) period = 4;
+    if (current_date > new Date("2021-02-01")) period = 2;
+    if (current_date > new Date("2021-03-01")) period = 3;
+    if (current_date > new Date("2021-03-15")) period = 4;
+    if (current_date > new Date("2021-04-15")) period = 5;
+    if (current_date > new Date("2021-05-24")) period = 6;
+    if (current_date > new Date("2021-05-29")) period = 7;
+    if (current_date > new Date("2021-05-31")) period = 8;
     return {
       is_discount,
       period,

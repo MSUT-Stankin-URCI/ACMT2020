@@ -19,10 +19,17 @@
               Авторам предлагается представить расширенный абстракт объемом не более 400 слов на английском языке. Рисунки не могут быть прикреплены к абстракту.
             </translate>
           </p>
+          <p v-if="this.$parent.$language.current == 'en_GB'">
+            The papers should be submitted to the International Journal of Advanced Manufacturing Technology:<br>
+            <a
+              href="https://www.editorialmanager.com/jamt/default.aspx"
+              target="_blank"
+            >https://www.editorialmanager.com/jamt/default.aspx</a>
+          </p>
           <p>
             <translate>
               Абстракт должен быть представлен до 20 февраля 2020 г. по электронной почте:
-            </translate>&nbsp;
+            </translate><br>
             <a href="mailTo:acmt2020@stankin.ru">acmt2020@stankin.ru</a>
           </p>
 
@@ -60,31 +67,29 @@
                 Все принятые доклады конференции будут опубликованы в изданиях, индексируемых в базах Web of Science и Scopus.
               </translate>
               <br>
-              <a
+              <!-- <a
                 href="/docs/ACMT2020_Doc_Template.docm"
                 style="font-size: 12pt; font-weight: 500;"
                 download
               >
                 <translate>Шаблон для статей</translate> 1
-              </a><br>
+              </a><br> -->
 
               
               <!--Springer journals-->
               <a
                 href="/docs/template_ACMT_word2.dotm"
-                style="font-size: 12pt; font-weight: 500;"
                 download
               >
-                <translate>Шаблон для статей</translate> 2
+                <translate>Шаблон для статей</translate>
               </a><br>
 
               
               <a
                 href="/docs/Latex_Template.zip"
-                style="font-size: 12pt; font-weight: 500;"
                 download
               >
-                <translate>Шаблон для статей</translate> 3 (LaTeX, zip)
+                <translate>Шаблон для статей</translate> (LaTeX, zip)
               </a>
             </p>
           </div>
