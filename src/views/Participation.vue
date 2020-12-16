@@ -16,21 +16,24 @@
           </h2>
           <p>
             <translate>
-              Авторам предлагается представить расширенный абстракт объемом не более 400 слов на английском языке. Рисунки не могут быть прикреплены к абстракту.
+              Авторам предлагается представить полную статью до 2 января на английском языке, примерно от 6 до 10 страниц.
             </translate>
           </p>
-          <p v-if="this.$parent.$language.current == 'en_GB'">
-            The papers should be submitted to the International Journal of Advanced Manufacturing Technology:<br>
+          <p>
+            <translate>
+              Статьи должны быть представлены в International Journal of Advanced Manufacturing Technology:
+            </translate><br>
             <a
               href="https://www.editorialmanager.com/jamt/default.aspx"
               target="_blank"
+              rel="noopener nooferrer"
             >https://www.editorialmanager.com/jamt/default.aspx</a>
           </p>
           <p>
             <translate>
-              Абстракт должен быть представлен до 20 февраля 2020 г. по электронной почте:
+              Дополнительную информацию, а также готовый шаблон слов можно найти на сайте конференции.
             </translate><br>
-            <a href="mailTo:acmt2020@stankin.ru">acmt2020@stankin.ru</a>
+            <a href="https://acmt2020.stankin.ru">https://acmt2020.stankin.ru</a>
           </p>
 
           <div style="margin: 40px 0px;">
@@ -104,16 +107,13 @@
               </div>
             </h3>
             <p>
-              <translate>
-                Регистрация (ранняя) (срок оплаты до 30 июня 2020 г.)
-                –
-              </translate>&nbsp;
+              <translate>Крайний срок ранней регистрации: 30 февраля 2020 г.</translate> - &nbsp;
               <strong>
                 <translate>28400 руб.</translate>
               </strong>
             </p>
             <p>
-              <translate>Полная регистрация (после 30 июня 2020 г.) –</translate>&nbsp;
+              <translate>Полная регистрация</translate>&nbsp;
               <strong>
                 <translate>35500 руб.</translate>
               </strong>
