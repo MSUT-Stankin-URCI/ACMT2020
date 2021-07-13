@@ -57,133 +57,116 @@
             </div>
           </div>
 
-          <h3 style="margin-top:40px">
-            <div
-              class="red-text"
-              style="font-size: 18px; margin-bottom: -10px;"
-            >
-              <translate>24.-28.05.2021</translate>
-            </div>
-            <div style="font-size: 26px;">
-              <translate>МЕТАЛЛООБРАБОТКА</translate>
-            </div>
-          </h3>
-
           <div class="table_wrapper">
             <table class="table">
               <thead>
                 <tr>
                   <td>
-                    <b>28.05.2021</b>
-                    <br>
-                    <translate>Пятница</translate>
+                    <b>28.05.2021</b><br>
+                    <translate>Пятница</translate><br>
                   </td>
                   <td>
-                    <b>29.05.2021</b>
-                    <br>
-                    <translate>Суббота</translate>
+                    <b>29.05.2021</b><br>
+                    <translate>Суббота</translate><br>
                   </td>
                   <td>
-                    <b>30.05.2021</b>
-                    <br>
-                    <translate>Воскресенье</translate>
+                    <b>30.05.2021</b><br>
+                    <translate>Воскресенье</translate><br>
                   </td>
                   <td>
-                    <b>31.05.2021</b>
-                    <br>
-                    <translate>Понедельник</translate>
+                    <b>31.05.2021</b><br>
+                    <translate>Понедельник</translate><br>
                   </td>
                   <td>
-                    <b>01.06.2021</b>
-                    <br>
-                    <translate>Вторник</translate>
+                    <b>01.06.2021</b><br>
+                    <translate>Вторник</translate><br>
                   </td>
                   <td>
-                    <b>02.06.2021</b>
-                    <br>
-                    <translate>Среда</translate>
+                    <b>02.06.2021</b><br>
+                    <translate>Среда</translate><br>
                   </td>
                 </tr>
               </thead>
+
               <tbody>
                 <tr>
                   <td>
                     <b><translate>Утро</translate></b><br>
-                    <translate>Посещение компании</translate>
+                    <translate>Посещение лабораторий Станкина</translate><br>
                   </td>
                   <td>
                     <b><translate>Утро</translate></b><br>
-                    <translate>Бизнес завтрак</translate>
+                    <translate>Культурная программа</translate><br>
                   </td>
                   <td>
                     <b><translate>Утро</translate></b><br>
-                    <translate>Культурная программа</translate>
+                    <translate>Свободное время</translate><br>
                   </td>
                   <td>
                     <b><translate>Утро</translate></b><br>
-                    <translate>Конференция</translate>
+                    <translate>Конференция</translate><br>
                   </td>
                   <td>
                     <b><translate>Утро</translate></b><br>
-                    <translate>Конференция</translate>
+                    <translate>Конференция</translate><br>
                   </td>
                   <td>
                     <b><translate>Утро</translate></b><br>
-                    <translate>Конференция</translate>
+                    <translate>Конференция</translate><br>
                   </td>
                 </tr>
 
                 <tr>
                   <td>
                     <b><translate>После полудня</translate></b><br>
-                    <translate>Экскурсия в компанию</translate>
+                    <translate>Свободное время</translate><br><br>
                   </td>
                   <td>
                     <b><translate>После полудня</translate></b><br>
-                    <translate>Посещение лабораторий Станкина</translate>
+                    <translate>Культурная программа</translate><br>
                   </td>
                   <td>
                     <b><translate>После полудня</translate></b><br>
-                    <translate>Свободное время</translate>
+                    <translate>Свободное время</translate><br><br>
                   </td>
                   <td>
                     <b><translate>После полудня</translate></b><br>
-                    <translate>Конференция</translate>
+                    <translate>Конференция</translate><br>
                   </td>
                   <td>
                     <b><translate>После полудня</translate></b><br>
-                    <translate>Конференция</translate>
+                    <translate>Конференция</translate><br>
                   </td>
                   <td>
                     <b><translate>После полудня</translate></b><br>
-                    <translate>Конференция</translate>
+                    <translate>Закрытие</translate><br>
                   </td>
                 </tr>
 
                 <tr>
                   <td>
                     <b><translate>Вечер</translate></b><br>
-                    <translate>Свободное время</translate>
+                    <translate>Свободное время</translate><br><br>
                   </td>
                   <td>
                     <b><translate>Вечер</translate></b><br>
-                    <translate>Свободное время</translate>
+                    <translate>Свободное время</translate><br><br>
                   </td>
                   <td>
                     <b><translate>Вечер</translate></b><br>
-                    <translate>Торжественный прием</translate>
+                    <translate>Свободное время</translate><br><br>
                   </td>
                   <td>
                     <b><translate>Вечер</translate></b><br>
-                    <translate>Официальный ужин</translate>
+                    <translate>Официальный ужин</translate><br>
                   </td>
                   <td>
                     <b><translate>Вечер</translate></b><br>
-                    <translate>Вечер налаживания деловых контактов</translate>
+                    <translate>Свободное время</translate><br><br>
                   </td>
                   <td>
                     <b><translate>Вечер</translate></b><br>
-                    <translate>Индивидуальный выезд</translate>
+                    <translate>Индивидуальный выезд</translate><br>
                   </td>
                 </tr>
               </tbody>

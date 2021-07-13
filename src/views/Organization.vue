@@ -35,7 +35,7 @@
               </h5>
               <ul>
                 <li class="text">
-                  Chairwoman: Prof Kataeva
+                  Chairman: Prof Kapitanov
                 </li>
                 <li class="text">
                   Co-chairman: Prof Kutin

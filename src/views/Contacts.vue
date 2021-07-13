@@ -1,6 +1,9 @@
 <template>
   <div class="page">
-    <div class="container" style="margin-bottom: 100px">
+    <div 
+      class="container" 
+      style="margin-bottom: 100px"
+    >
       <h2 style="margin:50px auto">
         <translate>Контакты</translate>
       </h2>
@@ -54,8 +57,7 @@
             <img src="@/assets/images/icons/placeholder.svg" alt />
           </i>
           <translate>
-            Россия, 143025, Московская область, Одинцовский район, дер.
-            Сколково, ул. Новая, д.100
+            Вадковский переулок, д.1, Москва, 127055
           </translate>
         </div>
       </div>
