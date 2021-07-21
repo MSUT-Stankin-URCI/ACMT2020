@@ -5,6 +5,11 @@
 npm install
 ```
 
+### In case of problems with the certificate
+```
+npm config set strict-ssl false
+```
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve
